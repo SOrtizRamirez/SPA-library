@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div>
+                <div class="title">Biblioteca</div>
+
+                <div class="profile">
+                    <img src="./img/logo.png" alt="Profile Image">
+                    <h3>Bibliotecario</h3>
+                    <p>Menú</p>
+                </div>
+
+                <nav class="nav">
+                    <a href="#"><i class="fas fa-home"></i>Inicio</a>
+                    <a href="#"><i class="fas fa-bookmark"></i>Curso</a>
+                    <a href="/books" data-link onclick="showBooks()"><i class="fas fa-user-graduate"></i>Libros</a>
+                    <a href="#"><i class="fas fa-dollar-sign"></i>Pago</a>
+                    <a href="#"><i class="fas fa-file-alt"></i>Reporte</a>
+                    <a href="#"><i class="fas fa-cog"></i>Configuración</a>
+                </nav>
+            </div>
+            <div class="logout">
+                <button id="close-session">Cerrar sesión</button>
+            </div>
+        </aside>
+
+        <main id="content"></main>
+    </div>
+</body>
+<script src="./scripts/script.js" defer></script>
+
+</html>

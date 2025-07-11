@@ -1,0 +1,47 @@
+{
+  "books": [
+    {
+      "id": "ad60",
+      "name": "CIEN AÑOS DE SOLEDAD",
+      "author": "GABRIEL GARCÍA MARQUEZ",
+      "quantity": 8
+    },
+    {
+      "name": "RAYUELA",
+      "author": "JULIO CORTAZAR",
+      "quantity": "20",
+      "id": "20ae"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "isAdmin": true,
+      "user": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": "f1d8",
+      "isAdmin": false,
+      "user": "miguel",
+      "password": "miguel123",
+      "email": "miguel@gmail.com"
+    },
+    {
+      "id": "e031",
+      "isAdmin": true,
+      "user": "sebas",
+      "password": "sebas123",
+      "email": "sebas@gmail.com"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "ad60",
+      "name": "CIEN AÑOS DE SOLEDAD",
+      "nameReservation": "Pablo",
+      "numberReservation": "1234567879",
+      "quantity": "10"
+    }
+  ]
+}

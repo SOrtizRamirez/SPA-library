@@ -1,0 +1,37 @@
+<section>
+    <div class="container">
+        <div class="back">←</div>
+        <h1>Registro de usuario</h1>
+
+        <div class="profile-icon">
+            👤
+        </div>
+
+        <h2>NUEVO USUARIO</h2>
+
+        <div id="responseNewUser">
+
+        </div>
+
+        <form id="register-form">
+            <div class="form-group">
+                <label for="name">Usuario</label>
+                <input type="text" id="nameNewUser" placeholder="Escriba su nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="emailNewUser" placeholder="Escriba su correo">
+            </div> 
+
+            <div class="form-group">
+                <label for="admission">Contraseña</label>
+                <input type="password" id="passwordNewUser" >
+            </div>
+
+            <div class="buttons">
+                <button onclick="registerUser()" id="btn-register">Registrarse</button>
+            </div>
+        </form>
+    </div>
+</section>
